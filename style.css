@@ -1,0 +1,19 @@
+body{
+    font-family: Montserrat;
+}
+.page{
+    margin:3rem 5rem;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.header_menu_list{
+    display: flex;
+    flex-direction: row;
+}
+.header_menu_elem{
+    margin: 0 2rem;
+}
