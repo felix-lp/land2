@@ -95,6 +95,7 @@ body{
     flex-direction: row;
     align-items: end;
     justify-content: space-between;
+    margin-bottom: 3rem;
 }
 .steps_header h1{
     margin: 0;
