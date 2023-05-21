@@ -7,9 +7,9 @@ body{
     
 }
 .page{
-    max-width: 75rem;
+    max-width: 73rem;
     overflow: auto;
-    margin: 0 2rem;
+    margin: 0 5rem;
     
     
 }
@@ -53,9 +53,11 @@ body{
 .heading_head h1{
     margin: 0;
     line-height: 3rem;
+    font-weight: 600;
 }
 .heading_head h2{
     margin: 0;
+    font-weight: 500;
 }
 .heading_head div{
     display: flex;
@@ -74,6 +76,7 @@ body{
     font-weight: 500;
     font-size: 0.8rem;
     font-family: Montserrat;
+    border: none;
 }
 
 .img_banner img{
@@ -85,7 +88,7 @@ body{
     
 }
 .steps{
-    margin: 5rem 0 2rem 0;
+    margin: 8rem 0 ;
 }
 .steps_header{
     display: flex;
@@ -107,7 +110,7 @@ body{
 .steps_tabs_content{
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 2rem;
+    gap: 1.5rem;
     margin: 2rem 0;
 
 }
@@ -116,7 +119,7 @@ body{
     border: 1px #DFDFDF solid;
     border-top: 0px;
     border-bottom: 0px;
-    padding:0.5rem;
+    padding:1.9rem;
 }
 .grid{
     display: grid;
@@ -150,9 +153,18 @@ body{
 }
 #grid_item_3{
     margin: 2rem;
+    font-size: 0.8em;
+    
+}
+#grid_item_3 p{
+    color:rgba(0, 0, 0, 0.6)
 }
 #grid_item_4{
     margin: 2rem;
+    font-size: 0.8em;
+}
+#grid_item_4 p{
+    color:rgba(0, 0, 0, 0.6)
 }
 #grid_item_5{
     grid-row: span 2;
@@ -164,6 +176,25 @@ body{
     object-fit: cover;
     height: 100%;
 }
+#instagram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.4rem 0 0.5rem 0;
+    font-size: 0.8rem;
+
+}
+#instagram div{
+    margin: 0 1.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+}
+#mail{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+    font-size: 0.8rem;
+    
+}
 .footer{
     display: flex;
     flex-direction: row;
@@ -171,4 +202,5 @@ body{
     padding: 2rem 0 1rem 0;
     white-space: nowrap;
     font-size: 1.2rem;
+    margin: 2rem 0;
 }
