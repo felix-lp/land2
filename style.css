@@ -225,7 +225,7 @@ body{
     .page{
         margin: 0em 5em;
         width: 100%;
-        padding: 0em 5em;
+        
     }
     .header{
         padding: 2rem 0.5em;
@@ -265,12 +265,27 @@ body{
         
         
     }
+    .steps{
+        margin: 4rem 0;
+
+    }
     .steps_header{
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: space-between;
-        margin-bottom: 3rem;
+        margin: 3rem 1rem;
+    }
+    .steps_tabs{
+        margin: 0;
+    }
+    .tab_item{
+    
+        border: 1px #DFDFDF solid;
+        border-right: 0px;
+        border-left: 0px;
+        border-top: 0px;
+        padding:1.9rem;
     }
     .grid{
         display: grid;
@@ -279,11 +294,16 @@ body{
         
         
     }
+    .main_button{
+        background-color: #FFF;
+        color:#000;
+    }
     #grid_item_1{
         grid-row: span 3;
         background-color: #000;
         color: #FFF;
         padding: 3rem;
+        order:1;
     }
     #grid_item_1 h1{
         margin:4rem 0;  
@@ -293,48 +313,52 @@ body{
     }
     #grid_item_2{
         grid-row: span 2;
+        order:2;
     }
     
     #grid_item_2 img{
         width: 100%;
-        max-width: fit-content;
+        max-width: none;
         background-size: cover;
         object-fit: cover;
         height: 100%;
-        order:1;
+        
     }
     #grid_item_3{
         margin: 2rem;
         font-size: 0.8em;
-        order: 2;
+        order: 3;
         
     }
     #grid_item_3 p{
         color:rgba(0, 0, 0, 0.6);
-        order: 3;
+        
     }
     #grid_item_4{
         margin: 2rem;
         font-size: 0.8em;
+        order: 5;
     }
     #grid_item_4 p{
         color:rgba(0, 0, 0, 0.6);
-        order: 5;
+        
     }
     #grid_item_5{
         grid-row: span 2;
+        order:4
     }
     #grid_item_5 img{
         width: 100%;
-        max-width: fit-content;
+        max-width: none;
         background-size: cover;
         object-fit: cover;
         height: 100%;
-        order:4
+        
     }
     .footer{
         display: flex;
         flex-direction: column;
+        margin: 0 2rem;
     }
 
     
